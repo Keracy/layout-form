@@ -31,11 +31,18 @@ body {
 .container {
   margin: 0 auto;
   margin-top: 20px;
-  padding: 20px;
+  padding: 40px;
   display: flex;
   background-color: rgba(0, 0, 30, 0.7);
   border-radius: 5px;
-  width: 50%;
+  width: 35%;
+}
+.form-group {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.block-input {
+  border-radius: 5px;
 }
 .fullpage-input {
   width: 100%;
@@ -67,4 +74,13 @@ body {
   border: 0px;
   color: #fff;
   border-radius: 2px;
+}
+.block-input {
+  height: 2.5rem;
+  font-size: 16px;
+}
+div ~ label {
+}
+::placeholder {
+  font-size: 16px;
 }

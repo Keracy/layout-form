@@ -17,7 +17,7 @@
         <div class="form-group">
           <label for="name">Name</label>
           <input
-            class="fullpage-input"
+            class="fullpage-input block-input"
             placeholder="Enter your name"
             type="text"
             name="name"
@@ -26,7 +26,7 @@
         <div class="form-group">
           <label for="email">Email</label>
           <input
-            class="fullpage-input"
+            class="fullpage-input block-input"
             placeholder="Enter your Email"
             type="email"
             name="email"
@@ -35,7 +35,7 @@
         <div class="form-group">
           <label for="age">Age(optional)</label>
           <input
-            class="fullpage-input"
+            class="fullpage-input block-input"
             placeholder="Age"
             type="text"
             name="age"
@@ -45,7 +45,7 @@
           <label for="role"
             >Which option best describes your current role?</label
           >
-          <select name="role" class="fullpage-input">
+          <select name="role" class="fullpage-input block-input">
             <option value selected disabled>Select current role</option>
             <option value="student">Student</option>
             <option value="ftjob">Full Time Job</option>
@@ -80,7 +80,7 @@
           <label for="feature"
             >What is your favorite feature of freeCodeCamp?</label
           >
-          <select name="feature" class="fullpage-input">
+          <select name="feature" class="fullpage-input block-input">
             <option value selected disabled>Select an option</option>
             <option value="challenges">Challenges</option>
             <option value="projects">Projects</option>
@@ -125,15 +125,16 @@
           </label>
         </div>
         <div class="form-group">
-          <label for="">Any comments or suggestions?</label>
-          <textarea
-            placeholder="Enter your comment here..."
-            id="suggestions-input"
-            name="suggestions"
-            rows="10"
-          ></textarea>
+          <label
+            >Any comments or suggestions?
+            <textarea
+              placeholder="Enter your comment here..."
+              id="suggestions-input"
+              name="suggestions"
+              rows="10"
+            ></textarea>
+          </label>
         </div>
-
         <div class="form-group">
           <input type="submit" class="submit-input" value="Submit" />
         </div>
