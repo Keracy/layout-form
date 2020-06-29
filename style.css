@@ -10,7 +10,9 @@ body {
   background-size: cover no-repeat;
   font-family: "Poppins", sans-serif;
 }
-
+::placeholder {
+  font-size: 16px;
+}
 *,
 *:after,
 *:before {
@@ -43,6 +45,8 @@ body {
 }
 .block-input {
   border-radius: 5px;
+  height: 2.5rem;
+  font-size: 16px;
 }
 .fullpage-input {
   width: 100%;
@@ -74,13 +78,4 @@ body {
   border: 0px;
   color: #fff;
   border-radius: 2px;
-}
-.block-input {
-  height: 2.5rem;
-  font-size: 16px;
-}
-div ~ label {
-}
-::placeholder {
-  font-size: 16px;
 }
